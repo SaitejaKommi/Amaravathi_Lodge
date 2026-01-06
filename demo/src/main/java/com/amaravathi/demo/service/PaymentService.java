@@ -30,8 +30,8 @@ public class PaymentService {
     private UserRepository userRepository;
 
     // Razorpay credentials (CHANGE THESE WITH YOUR ACTUAL KEYS)
-    private static final String RAZORPAY_KEY_ID = "rzp_test_1DP5mmOlF5G5ag";
-    private static final String RAZORPAY_KEY_SECRET = "jB3GR4Uvjn4zWHzDfGVlxAqL";
+    private static final String RAZORPAY_KEY_ID = "rzp_test_S0Rp77BVEXcnhF";
+    private static final String RAZORPAY_KEY_SECRET = "mrarccIPV0ifi7nDLgKoS0G2";
 
     // Create Razorpay order
     public Map<String, Object> createPaymentOrder(Long bookingId) {
